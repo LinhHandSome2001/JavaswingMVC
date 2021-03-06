@@ -36,7 +36,12 @@ public class MenuController {
             case 2:
                 st_contrl.tim_kiem_sv_theo_sdt();
                 break;
-                
+            case 3:
+                System.out.println("Chuong trinh da ket thuc");
+            default:
+                System.out.println("");
+                System.out.println("Yeu cau chua chinh xac");
+                mnview.hien_thi_menu();
         }
     }
     
